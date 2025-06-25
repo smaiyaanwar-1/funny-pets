@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: hsl(140, 79%, 69%);
+  color: #333;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #ff7b00;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #0096c7;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+img {
+  width: 300px;
+  height: 170px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
